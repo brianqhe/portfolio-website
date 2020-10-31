@@ -1,0 +1,110 @@
+.navbar {
+  background-color: salmon;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  border-bottom: solid black 2px;
+}
+
+.navbar-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.navbar-title {
+  font-size: 20px;
+  color: white;
+}
+
+#home-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.front-page-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#front-page-photo {
+  max-width: 45%;
+  height: auto;
+  margin: 20px;
+}
+
+@media screen and (max-width: 479px) {
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .front-page-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #front-page-photo {
+    max-width: 75%;
+    height: auto;
+    margin-top: 30px;
+  }
+}
+
+.front-page-introduction {
+  margin: 20px;
+}
+
+.footer-links {
+  height: 25px;
+  width: auto;
+  margin: 5px;
+}
+
+#social-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  right: 20px;
+}
+/*# sourceMappingURL=style.css.map */
