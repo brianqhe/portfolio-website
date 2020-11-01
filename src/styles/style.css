@@ -26,12 +26,12 @@
           flex-direction: column;
 }
 
-a {
+.navbar-links {
   text-decoration: none;
   color: white;
 }
 
-a:visited {
+.navbar-links:visited {
   color: white;
 }
 
@@ -64,26 +64,6 @@ a:visited {
   margin: 20px;
 }
 
-@media screen and (max-width: 479px) {
-  .navbar {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .front-page-content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  #front-page-photo {
-    max-width: 75%;
-    height: auto;
-    margin-top: 30px;
-  }
-}
-
 .front-page-introduction {
   margin: 20px;
 }
@@ -106,5 +86,165 @@ a:visited {
   bottom: 0;
   width: 100%;
   right: 20px;
+}
+
+#contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+#contact-me-form {
+  width: 50%;
+  padding: 50px;
+}
+
+button {
+  margin-top: 30px;
+  height: 50px;
+  width: 100px;
+  background-color: pink;
+  border: none;
+}
+
+.contact-page-social-links {
+  height: 100px;
+  width: auto;
+  margin: 100px;
+}
+
+#contact-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #ffeef1;
+}
+
+#contact-social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog-photo {
+  height: 200px;
+  width: auto;
+  margin: 10px;
+}
+
+.blog-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid black;
+  margin: 30px;
+  background-color: #cfcfcf;
+}
+
+.blog-post-preview {
+  width: 70%;
+}
+
+#blog-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog-links {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.blog-links:visited {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 479px) {
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .front-page-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #front-page-photo {
+    max-width: 75%;
+    height: auto;
+    margin-top: 30px;
+  }
+  #contact-me-form {
+    width: 80%;
+  }
+  #contact-page {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-page-social-links {
+    height: 50px;
+    width: auto;
+  }
+  .contact-page-social-links {
+    margin: 10px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .blog-post {
+    max-width: 90%;
+    margin: 30px;
+  }
+  .blog-photo {
+    height: 175px;
+    width: auto;
+    margin: 10px;
+  }
+  .blog-post-preview {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
