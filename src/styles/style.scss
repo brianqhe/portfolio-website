@@ -140,6 +140,23 @@ button {
     color: black;
 }
 
+.photo-within-blog-post {
+    width: 75%;
+    height: auto;
+    margin: 20px;
+}
+
+.blog-post-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-writing {
+    width: 80%;
+}
+
 @media screen and (max-width: 479px) {
     .navbar {
         flex-direction: column;
