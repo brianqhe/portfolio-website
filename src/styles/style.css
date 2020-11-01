@@ -40,9 +40,9 @@
   color: white;
 }
 
-#home-logo {
-  height: 50px;
-  width: 50px;
+.navbar-logo {
+  height: auto;
+  width: 60px;
 }
 
 .front-page-content {
@@ -106,7 +106,7 @@
   padding: 50px;
 }
 
-button {
+#contact-button {
   margin-top: 30px;
   height: 50px;
   width: 100px;
