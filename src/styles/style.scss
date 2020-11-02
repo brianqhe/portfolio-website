@@ -183,6 +183,35 @@
     padding: 20px;
 }
 
+
+.about-me-title1 {
+    position: absolute;
+}
+
+.about-me-title2 {
+    position: absolute;
+}
+
+.about-me-title3 {
+    position: absolute;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content-photo {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-content-photo:hover {
+    opacity: 50%;
+    transition: 2s;
+}
+
 @media screen and (max-width: 479px) {
     .navbar {
         flex-direction: column;
