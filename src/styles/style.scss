@@ -92,7 +92,6 @@
 #contact-page {
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 238, 241);
 }
 
 #contact-social-links {
@@ -157,6 +156,33 @@
     width: 80%;
 }
 
+.timeline-block {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    margin: 10px;
+    background-color: rgb(188, 228, 253);
+}
+
+#education-content-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.experience-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.timeline-photo {
+    max-width: 45%;
+    padding: 20px;
+}
+
 @media screen and (max-width: 479px) {
     .navbar {
         flex-direction: column;
@@ -205,4 +231,19 @@
         width: 80%;
     }
 
+    .experience-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .timeline-photo {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .timeline-block {
+        margin: 5px;
+        width: 99%;
+    }
 }
