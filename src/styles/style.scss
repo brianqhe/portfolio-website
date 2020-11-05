@@ -1,10 +1,29 @@
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+label,
+textarea,
+input,
+button {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .navbar {
-    background-color: salmon;
+    background-color: #ecf8f8;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
     border-bottom: solid black 2px;
+}
+
+body {
+    height: 100%;
+    position: relative;
+    background-color: #e5e5e5;
 }
 
 .navbar-home {
@@ -15,17 +34,19 @@
 
 .navbar-links {
     text-decoration: none;
-    color: white;
+    color: black;
+    margin: 10px;
+    font-weight: 900;
 }
 
 .navbar-links:visited {
-    color: white;
+    color: black;
 
 }
 
 .navbar-title {
     font-size: 20px;
-    color: white;
+    color: black;
 }
 
 .navbar-logo {
@@ -37,6 +58,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-bottom: 100px;
 }
 
 #front-page-photo {
@@ -50,8 +72,6 @@
 }
 
 #introduction-content {
-    position: relative;
-    bottom: 100px;
     padding: 20px;
 }
 
@@ -65,11 +85,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .home-page-skills-icons {
-    height: 100px;
-    width: auto;
+    height: auto;
+    width: 10%;
     margin: 20px;
 }
 
@@ -77,15 +98,25 @@
     height: 25px;
     width: auto;
     margin: 5px;
+    text-decoration: none;
 }
 
 #social-footer {
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: flex-end;
     position: absolute;
     bottom: 0;
     width: 100%;
-    right: 20px;
+}
+
+#home-page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin-bottom: 50px;
 }
 
 #contact-form {
@@ -103,8 +134,9 @@
     margin-top: 30px;
     height: 50px;
     width: 100px;
-    background-color: pink;
+    background-color: black;
     border: none;
+    color: white;
 }
 
 .contact-page-social-links {
@@ -121,9 +153,15 @@ textarea {
     border: none;
     border-bottom: 1px solid black;
 }
+
 input {
     border: none;
     border-bottom: 1px solid black;
+    background-color: #e5e5e5;
+}
+
+textarea {
+    background-color: #e5e5e5;
 }
 
 #contact-page {
@@ -150,6 +188,7 @@ input {
     height: 200px;
     width: auto;
     margin: 10px;
+    border-radius: 10%;
 }
 
 .blog-post {
@@ -159,8 +198,29 @@ input {
     max-width: 40%;
     justify-content: center;
     border: 2px solid black;
+    border-radius: 30px;
     margin: 30px;
-    background-color: rgb(207, 207, 207);
+    background-color: #eee4e1;
+}
+
+.read-more-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.read-more-link:visited {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+
+.blog-date {
+    margin-block-start: 1em;
+    margin-block-end: 0;
 }
 
 .blog-post-preview {
@@ -177,6 +237,7 @@ input {
     font-size: 20px;
     color: black;
     text-decoration: none;
+    font-weight: 900;
 }
 
 .blog-links:visited {
@@ -207,7 +268,15 @@ input {
     padding: 10px;
     width: 80%;
     margin: 10px;
-    background-color: rgb(188, 228, 253);
+
+}
+
+.experience-block {
+    background-color: #eee4e1;
+}
+
+.education-block {
+    background-color: #e7d8c9;
 }
 
 #education-content-block {
@@ -229,10 +298,28 @@ input {
 }
 
 .timeline-photo {
-    max-width: 45%;
+    width: 45%;
+    height: auto;
     padding: 20px;
+    border-radius: 10%;
 }
 
+#resume-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+#resume-download-button {
+    border: none;
+    color: white;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+}
 
 .about-me-title1 {
     position: absolute;
@@ -267,6 +354,10 @@ input {
         flex-direction: column;
     }
 
+    .navbar-links {
+        font-size: 12px;
+    }
+
     .front-page-content {
         flex-direction: column;
     }
@@ -275,6 +366,10 @@ input {
         width: 95%;
         height: auto;
         margin-top: 30px;
+    }
+
+    #social-footer {
+        justify-content: center;
     }
 
     #front-page-introduction {
@@ -286,7 +381,7 @@ input {
     }
 
     .home-page-skills-icons {
-        width: 50px;
+        width: 10%;
         height: auto;
     }
 
@@ -295,8 +390,6 @@ input {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: relative;
-        top: 1px;
     }
 
     #skills-content {
@@ -355,6 +448,7 @@ input {
     .timeline-photo {
         max-width: 80%;
         height: auto;
+        border-radius: 50%;
     }
 
     .timeline-block {
@@ -367,4 +461,111 @@ input {
         justify-content: center;
         align-content: center;
     }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 479px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .front-page-content {
+        flex-direction: column;
+    }
+
+    #front-page-photo {
+        width: 95%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    #social-footer {
+        justify-content: center;
+    }
+
+    #front-page-introduction {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 10px
+    }
+
+    .home-page-skills-icons {
+        width: 10%;
+        height: auto;
+    }
+
+    #introduction-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #skills-content {
+        margin: none;
+    }
+
+    .experience-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #contact-me-form {
+        width: 80%;
+        justify-self: center;
+        align-self: center;
+    }
+
+    #contact-page {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-page-social-links {
+        height: 50px;
+        width: auto;
+    }
+
+    #contact-social-links {
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    #submit-button {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .blog-post {
+        margin: 30px;
+    }
+
+    .blog-photo {
+        height: 175px;
+        width: auto;
+        margin: 10px;
+    }
+
+    .about-content-photo {
+        opacity: 70%;
+    }
+
+    .timeline-photo {
+        max-width: 80%;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .timeline-block {
+        margin: 5px;
+        width: 99%;
+    }
+
 }
