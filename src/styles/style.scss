@@ -1,3 +1,9 @@
+$about-position:absolute;
+
+$light-blue-header: #ecf8f8;
+
+$body-grey-color: #e5e5e5;
+
 p,
 a,
 h1,
@@ -12,7 +18,7 @@ button {
 }
 
 .navbar {
-    background-color: #ecf8f8;
+    background-color: $light-blue-header;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +31,7 @@ body {
     flex-direction: column;
     height: 100%;
     position: relative;
-    background-color: #e5e5e5;
+    background-color: $body-grey-color;
     min-height: 100vh;
 }
 
@@ -108,6 +114,12 @@ main {
     width: auto;
     margin: 5px;
     text-decoration: none;
+    transition: 2s;
+}
+
+.footer-links:hover {
+    transform: scale(1.5);
+    transition: 2s;
 }
 
 #social-footer {
@@ -146,6 +158,11 @@ body {
     color: white;
 }
 
+#contact-button:hover {
+    background-color: white;
+    color: black;
+}
+
 .contact-page-social-links {
     height: auto;
     width: 100px;
@@ -164,11 +181,11 @@ textarea {
 input {
     border: none;
     border-bottom: 1px solid black;
-    background-color: #e5e5e5;
+    background-color: $body-grey-color;
 }
 
 textarea {
-    background-color: #e5e5e5;
+    background-color: $body-grey-color;
 }
 
 #contact-page {
@@ -182,6 +199,11 @@ textarea {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 70%;
+}
+
+.contact-page-social-links:hover {
+    transform: scale(1.5);
+    transition: 2s;
 }
 
 .social-tile {
@@ -269,13 +291,24 @@ textarea {
     width: 80%;
 }
 
+@keyframes opacity-animation {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
 .timeline-block {
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
     width: 80%;
     margin: 10px;
-
+    animation-name: opacity-animation;
+    animation-duration: 3s;
 }
 
 .experience-block {
@@ -328,16 +361,17 @@ textarea {
     font-weight: 700;
 }
 
-.about-me-title1 {
-    position: absolute;
+#resume-download-button:hover {
+    color: black;
+    background-color: white;
 }
 
-.about-me-title2 {
-    position: absolute;
-}
-
-.about-me-title3 {
-    position: absolute;
+.about-me-title1,
+.about-me-title2,
+.about-me-title3,
+.about-me-title4,
+.about-me-title5 {
+    position: $about-position
 }
 
 .about-me-header {
@@ -368,7 +402,7 @@ textarea {
     }
 
     .navbar-links {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .front-page-content {
@@ -412,6 +446,10 @@ textarea {
 
     .about-me-header {
         font-size: 20px;
+    }
+
+    .about-content-photo {
+        opacity: 70%;
     }
 
     #contact-me-form {
@@ -595,4 +633,25 @@ textarea {
         font-size: 20px;
     }
 
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

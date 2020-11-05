@@ -147,6 +147,15 @@ main {
   width: auto;
   margin: 5px;
   text-decoration: none;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.footer-links:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 #social-footer {
@@ -203,6 +212,11 @@ body {
   color: white;
 }
 
+#contact-button:hover {
+  background-color: white;
+  color: black;
+}
+
 .contact-page-social-links {
   height: auto;
   width: 100px;
@@ -252,6 +266,13 @@ textarea {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 70%;
+}
+
+.contact-page-social-links:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .social-tile {
@@ -368,12 +389,34 @@ textarea {
   width: 80%;
 }
 
+@-webkit-keyframes opacity-animation {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes opacity-animation {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 .timeline-block {
   border: 2px solid black;
   border-radius: 10px;
   padding: 10px;
   width: 80%;
   margin: 10px;
+  -webkit-animation-name: opacity-animation;
+          animation-name: opacity-animation;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
 }
 
 .experience-block {
@@ -446,15 +489,16 @@ textarea {
   font-weight: 700;
 }
 
-.about-me-title1 {
-  position: absolute;
+#resume-download-button:hover {
+  color: black;
+  background-color: white;
 }
 
-.about-me-title2 {
-  position: absolute;
-}
-
-.about-me-title3 {
+.about-me-title1,
+.about-me-title2,
+.about-me-title3,
+.about-me-title4,
+.about-me-title5 {
   position: absolute;
 }
 
@@ -495,7 +539,7 @@ textarea {
             flex-direction: column;
   }
   .navbar-links {
-    font-size: 12px;
+    font-size: 11px;
   }
   .front-page-content {
     -webkit-box-orient: vertical;
@@ -550,6 +594,9 @@ textarea {
   }
   .about-me-header {
     font-size: 20px;
+  }
+  .about-content-photo {
+    opacity: 70%;
   }
   #contact-me-form {
     width: 80%;
@@ -775,5 +822,26 @@ textarea {
   #introduction-content {
     font-size: 20px;
   }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 30px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 /*# sourceMappingURL=style.css.map */
