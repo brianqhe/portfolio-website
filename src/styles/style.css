@@ -72,7 +72,6 @@ main {
 
 .navbar-title {
   font-size: 20px;
-  color: black;
 }
 
 .navbar-logo {
@@ -91,7 +90,6 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 100px;
 }
 
 #front-page-photo {
@@ -181,10 +179,6 @@ main {
           flex-direction: column;
 }
 
-body {
-  margin-bottom: 50px;
-}
-
 #contact-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -230,15 +224,12 @@ label {
 textarea {
   border: none;
   border-bottom: 1px solid black;
+  background-color: #e5e5e5;
 }
 
 input {
   border: none;
   border-bottom: 1px solid black;
-  background-color: #e5e5e5;
-}
-
-textarea {
   background-color: #e5e5e5;
 }
 
@@ -466,19 +457,6 @@ textarea {
   border-radius: 50%;
 }
 
-#resume-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 50px;
-}
-
 #resume-download-button {
   border: none;
   color: white;
@@ -487,6 +465,7 @@ textarea {
   width: 100%;
   font-size: 25px;
   font-weight: 700;
+  margin-top: 100px;
 }
 
 #resume-download-button:hover {
@@ -824,23 +803,19 @@ textarea {
   }
 }
 
-/* width */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
   border-radius: 30px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }

@@ -1,9 +1,13 @@
+// Allocate SASS variable for all titles in the About Me page to be position:absolute
 $about-position:absolute;
 
+// Allocate SASS variable for header color to allow for easier change in theme if design concept changes
 $light-blue-header: #ecf8f8;
 
+// Allocate SASS variable for background color of body for easier changes to be made overall
 $body-grey-color: #e5e5e5;
 
+// allocate font for website to Open Sans
 p,
 a,
 h1,
@@ -17,15 +21,20 @@ button {
     font-family: 'Open Sans', sans-serif;
 }
 
+// Utilise flexbox to make navbar spaced between and aligned center
 .navbar {
     background-color: $light-blue-header;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    // Add padding so navbar isnt so close to edge of screen
     padding: 10px;
+    // Add a border below the navbar for cleaner look
     border-bottom: solid black 2px;
 }
 
+// Allocate color to body of website
+// Add position and height attributes to allow for sticky footer
 body {
     display: flex;
     flex-direction: column;
@@ -35,93 +44,119 @@ body {
     min-height: 100vh;
 }
 
+// Allocate flex-grow to allow for sticky footer
 main {
     flex-grow: 1;
 }
 
+// Used flexbox to make icon and name of website to be flexed in a column i.e. 1 below the other
 .navbar-home {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+// Changed the default decoration on HTML links
 .navbar-links {
+    // Removed the underline from HTML links on default
     text-decoration: none;
+    // Made the font color to be black
     color: black;
+    // Allocated a margin to move links away from edge of site
     margin: 10px;
+    // Increased the weight of the font to stand out more
     font-weight: 900;
 }
 
+// Removed the default purple color of a visited HTML link
 .navbar-links:visited {
     color: black;
 
 }
 
+// Changed the font-size of Brian Q He in the navbar
 .navbar-title {
     font-size: 20px;
-    color: black;
 }
 
+// Changed the sizing of the site icon
 .navbar-logo {
     height: auto;
     width: 60px;
 }
 
+// Used flexbox to make the image and word content to flex in a row
 .front-page-content {
     display: flex;
     flex-direction: row;
+    // Aligned the items to be in the center of the div
     align-items: center;
-    padding-bottom: 100px;
 }
 
+// Adjusted the size of the front page photo container to take up 50% of the page width
 #front-page-photo {
     width: 50%;
+    // Allocated a margin to move content further away from edge of page
     margin: 20px;
 }
 
+// Adjusted photo size relative to the size of the container
 #home-photo {
     width: 100%;
     height: auto;
+    // Adjusted border radius to have a circle shaped photo
     border-radius: 50%;
 }
 
+// Changed font size of all word content in home page
 #introduction-content {
     font-size: 20px;
+    // Added padding to bring words away from edge of screen and photo
     padding: 30px;
 }
 
+// Used flexbox to make the flex-direction of the skills icons and introduction content to be column
 #front-page-introduction {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
+// Used flexbox to put all icons in a row and spaced evenly
 #skills-content {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    // Use flex-wrap to have icons wrap if screen size gets too small
     flex-wrap: wrap;
 }
 
+// Adjusted size and margins between each skill icon
 .home-page-skills-icons {
     height: auto;
     width: 10%;
     margin: 20px;
 }
 
+// Adjusted size of each footer link
 .footer-links {
     height: 25px;
     width: auto;
+    // Added margin to bring icons away from edge of screen
     margin: 5px;
+    // Remove any underlines underneath the icons
     text-decoration: none;
+    // Added transition for icons to appear
     transition: 2s;
 }
 
+// Added transition of icons to grow by 150% over 2 seconds when hovered
 .footer-links:hover {
     transform: scale(1.5);
     transition: 2s;
 }
 
+// Added properties to allow footer to be sticky and towards end of the page
 #social-footer {
     display: flex;
     align-items: center;
@@ -129,26 +164,28 @@ main {
     width: 100%;
 }
 
+// Used flexbox to <main> content flex in a column for a sticky footer
 #home-page-container {
     display: flex;
     flex-direction: column;
 }
 
-body {
-    margin-bottom: 50px;
-}
-
+// Used flexbox to have all items within the form flex in a column
 #contact-form {
     display: flex;
     flex-direction: column;
+    // Allocate all content to be justified to the left
     justify-content: left;
 }
 
+// Allocate the form container to take up 50% of the screen
 #contact-me-form {
     width: 50%;
+    // Add a padding so that the form isn't too close to the edge of the screen
     padding: 50px;
 }
 
+// Formatting the style and size of the "Submit" button
 #contact-button {
     margin-top: 30px;
     height: 50px;
@@ -158,110 +195,139 @@ body {
     color: white;
 }
 
+// Formatted the "Submit" button such that the colors go inverse when hovered over
 #contact-button:hover {
     background-color: white;
     color: black;
 }
 
+// Formatted the sizing of the social links on the Contact Me page
 .contact-page-social-links {
     height: auto;
     width: 100px;
 }
 
+// Adjusted the space between labels and inputs
 label {
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
+// Removed the default box-border of <textarea> and added just a bottom border instead
 textarea {
     border: none;
     border-bottom: 1px solid black;
+    // Change the default white color of the <textarea> into the body grey colour
+    background-color: $body-grey-color;
 }
 
+// Removed the default box-border of <input> and added just a bottom border instead
 input {
     border: none;
     border-bottom: 1px solid black;
+    // Change the default white color of the <input> into the body grey colour
     background-color: $body-grey-color;
 }
 
-textarea {
-    background-color: $body-grey-color;
-}
-
+// Used flexbox such that the contact me form and the social media links are side by side
 #contact-page {
     display: flex;
     flex-direction: row;
 }
 
+// Used flexbox to make the links wrap 2 by 2
 #contact-social-links {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    // Space the links to be evenly with each other
     justify-content: space-evenly;
+    // Allocated the sizing of the links to take up 70% of the container
     width: 70%;
 }
 
+// Used an transition to grow the icons by 150% when hovered over
 .contact-page-social-links:hover {
     transform: scale(1.5);
     transition: 2s;
 }
 
+// Used flexbox to align the icons center of the container
 .social-tile {
     display: flex;
     justify-content: center;
     align-items: center;
+    // Made the containers take up 45% of the width of the larger container
     width: 45%;
 }
 
+// Adjusted the size of the blog preview photo
 .blog-photo {
     height: 200px;
     width: auto;
+    // Added margin to space photo away from border and title
     margin: 10px;
+    // Added border radius to make photo have round edges
     border-radius: 10%;
 }
 
+// Used flexbox to make all content within the container (preview photo, title, date, content, Read more link) to be stacked in a column
 .blog-post {
     display: flex;
     flex-direction: column;
     align-items: center;
+    // Made the maximum width of each container to be 40%
     max-width: 40%;
+    // Justify the content so that all contents are in the center
     justify-content: center;
+    // Added a border to make each blog post separated
     border: 2px solid black;
+    // Added a border radius to make edges round
     border-radius: 30px;
+    // Added margin so that none of the blog posts are too close to one another
     margin: 30px;
+    // Added background color of blog preview to be different color to body background of grey
     background-color: #eee4e1;
 }
 
+// Removed default decoration of HTML link
 .read-more-link {
     text-decoration: none;
     color: black;
+    // Changed emphasis on link
     font-weight: 700;
+    // Added margin to push border away from link
     margin-bottom: 10px;
 
 }
 
+// Removed default decoration from visited HTML link
 .read-more-link:visited {
     text-decoration: none;
     color: black;
+    // Changed emphasis on link from default
     font-weight: 700;
-
 }
 
+// Changed defauly margins for block for date
 .blog-date {
     margin-block-start: 1em;
     margin-block-end: 0;
 }
 
+// Changed width for which the words take up the container
 .blog-post-preview {
     width: 70%;
 }
 
+// Used flexbox to make all blog post previews wrap and be centered
 #blog-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+// Adjusted the default HTML decorations for the link to the blog post
 .blog-links {
     font-size: 20px;
     color: black;
@@ -269,28 +335,35 @@ textarea {
     font-weight: 900;
 }
 
+// Adjusted the default HTML decorations for visited links
 .blog-links:visited {
     text-decoration: none;
     color: black;
 }
 
+// Adjusted the size of the photos in blog posts
 .photo-within-blog-post {
     width: 75%;
     height: auto;
+    // Adjusted margin to push photo away from edge of page
     margin: 20px;
 }
 
+// Used flexbox to stack blog post content on top of each other
 .blog-post-content {
     display: flex;
     flex-direction: column;
+    // Used flexbox to center all content and items
     justify-content: center;
     align-items: center;
 }
 
+// Adjust writing within blog posts to only take up 80% of the container
 .blog-writing {
     width: 80%;
 }
 
+// Added keyframe for animation of timeline blocks
 @keyframes opacity-animation {
     0% {
         opacity: 0%;
@@ -301,24 +374,34 @@ textarea {
     }
 }
 
+// Adjusted container for each timeline block
 .timeline-block {
+    // Added a 2px black border for each timeline block
     border: 2px solid black;
+    // Made the edges of the border round
     border-radius: 10px;
+    // Added padding to push content inwards
     padding: 10px;
+    // Made each block only take up 80% of the total timeline container
     width: 80%;
+    // Added container to push block inwards away from edge of screen
     margin: 10px;
+    // Added animation for keyframe
     animation-name: opacity-animation;
     animation-duration: 3s;
 }
 
+// Changed background color of experience timeline blocks
 .experience-block {
     background-color: #eee4e1;
 }
 
+// Changed background color of education timeline blocks
 .education-block {
     background-color: #e7d8c9;
 }
 
+// Used flexbox to have the content within timeline blocks to be stacked on top of each other and aligned
 .education-content-block {
     display: flex;
     flex-direction: column;
@@ -327,98 +410,119 @@ textarea {
     width: 80%;
 }
 
+// Used flexbox to have photos and timeline blocks be side by side
 .experience-content {
     display: flex;
     flex-direction: row;
 }
 
+// Align title to be center of vertical axis
 .experience-title {
     text-align: center;
+    // Changed font size of title
     font-size: 30px;
 }
 
+// Formatted sizing of timeline photo
 .timeline-photo {
     width: 45%;
     height: auto;
+    // Added padding to push photo close within
     padding: 20px;
+    // Added border radius of 50% to make photo into a circle
     border-radius: 50%;
 }
 
-#resume-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 50px;
-}
-
+// Changed formatting of button for resume to be downloaded
 #resume-download-button {
+    // Removed border
     border: none;
+    // Made font color to be white
     color: white;
+    // Made background color to be black
     background-color: black;
+    // Changed height, width and font for button
     height: 50px;
     width: 100%;
     font-size: 25px;
     font-weight: 700;
+    // Added margin to push download button further down
+    margin-top: 100px;
 }
 
+// Made colors of download button to be inversed if hovered over
 #resume-download-button:hover {
     color: black;
     background-color: white;
 }
 
+// Made titles for each about-me section to be absolute, so that it would position in the center of the corresponding image
 .about-me-title1,
 .about-me-title2,
 .about-me-title3,
 .about-me-title4,
 .about-me-title5 {
+    // Used keyframe in case I wanted to change position of words over image
     position: $about-position
 }
 
+// Changed font style, size, and text shadow for words on top of image
 .about-me-header {
     font: 400 40px 'Berkshire Swash', Helvetica, sans-serif;
     color: white;
     text-shadow: 1px 1px 0px black, 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+// Used flexbox to make all content justfiy and align in the center
 .about-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+// Adjusted the size of the photo such that the width takes up the entire screen
 .about-content-photo {
     max-width: 100%;
     height: auto;
 }
 
+// Made the opacity of the photos be 50% and take 2 seconds to transition when they are hovered over
 .about-content-photo:hover {
     opacity: 50%;
     transition: 2s;
 }
 
+// media query to make website mobile compatable
 @media screen and (max-width: 479px) {
+
+    // Made navbar now stack on top of each other instead of be in a row
     .navbar {
         flex-direction: column;
     }
 
+    // Made navbar words smaller
     .navbar-links {
         font-size: 11px;
     }
 
+    // Made all content now stack on top of each other instead of side by side
     .front-page-content {
         flex-direction: column;
     }
 
+    // Adjusted size of photo to be compatable for the device
     #front-page-photo {
         width: 95%;
         height: auto;
         margin-top: 30px;
     }
 
+    // Made footer to now align in the center and not the right
     #social-footer {
         justify-content: center;
     }
 
+    // Adjusted the size of the container to take up the full width of the screen and be in a column
     #front-page-introduction {
         display: flex;
         flex-direction: column;
@@ -427,11 +531,13 @@ textarea {
         margin: 10px
     }
 
+    // Adjusted size of skills icons to be mobile compatable
     .home-page-skills-icons {
         width: 10%;
         height: auto;
     }
 
+    // Adjusted content to be vertically stacked in a column on this device type
     #introduction-content {
         display: flex;
         flex-direction: column;
@@ -440,83 +546,100 @@ textarea {
         font-size: 15px;
     }
 
+    // Removed margin on skills icons
     #skills-content {
         margin: none;
     }
 
+    // Adjusted font size of about-me title
     .about-me-header {
         font-size: 20px;
     }
 
+    // Adjusted opacity of photo for this device type
     .about-content-photo {
         opacity: 70%;
     }
 
+    // Adjusted contact me form to now align in the center instead of left
     #contact-me-form {
         width: 80%;
         justify-self: center;
         align-self: center;
     }
 
+    // Adjusted flex direction of contact page such that social media icons are now below the contact form
     #contact-page {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
+    // Adjusted size of social media links
     .contact-page-social-links {
         height: 50px;
         width: auto;
     }
 
+    // Adjusted content in the container for the social media links such that they don't wrap anymore
     #contact-social-links {
         flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
     }
 
+    // Changed formatting such that social tile takes up only 20% of the screen width
     .social-tile {
         width: 20%;
         margin: 10px;
     }
 
+    // Changed max-width of blog post to take up 90% of the screen width
     .blog-post {
         max-width: 90%;
+        // Added margin to bring content away from edge of screen
         margin: 30px;
     }
 
+    // Adjusted the blog photo size and added a margin to push the content away from edge of border
     .blog-photo {
         height: 175px;
         width: auto;
         margin: 10px;
     }
 
+    // Adjusted the width of the preview container so that only 1 is on the screen at a time
     .blog-post-preview {
         width: 80%;
     }
 
+    // Changed the timeline so that its now below the photo and not side by side
     .experience-content {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
+    // Adjusted size of timeline photo to take up 90% of screen width
     .timeline-photo {
         width: 90%;
         height: auto;
         border-radius: 50%;
     }
 
+    // Adjusted size of each timeline block
     .timeline-block {
         margin: 5px;
         width: 99%;
         font-size: 11px;
     }
 
+    // Adjusted font size of resume download button
     #resume-download-button {
         font-size: 13px;
     }
 
+    // Used flexbox to have button flex below the form
     #submit-button {
         display: flex;
         justify-content: center;
@@ -524,26 +647,32 @@ textarea {
     }
 }
 
+// media query to make website tablet compatable
 @media screen and (max-width: 1023px) and (min-width: 479px) {
 
+    // Made navbar now stack on top of each other instead of be in a row
     .navbar {
         flex-direction: column;
     }
 
+    // Made all content now stack on top of each other instead of side by side
     .front-page-content {
         flex-direction: column;
     }
 
+    // Adjusted size of photo to be compatable for the device
     #front-page-photo {
         width: 95%;
         height: auto;
         margin-top: 30px;
     }
 
+    // Made footer to now align in the center and not the right
     #social-footer {
         justify-content: center;
     }
 
+    // Adjusted the size of the container to take up the full width of the screen and be in a column
     #front-page-introduction {
         display: flex;
         flex-direction: column;
@@ -552,11 +681,13 @@ textarea {
         margin: 10px
     }
 
+    // Adjusted size of skills icons to be mobile compatable
     .home-page-skills-icons {
         width: 10%;
         height: auto;
     }
 
+    // Adjusted content to be vertically stacked in a column on this device type
     #introduction-content {
         display: flex;
         flex-direction: column;
@@ -564,33 +695,39 @@ textarea {
         align-items: center;
     }
 
+    // Removed margin on skills icons
     #skills-content {
         margin: none;
     }
 
+    // Changed the timeline so that its now below the photo and not side by side
     .experience-content {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
+    // Adjusted contact me form to now align in the center instead of left
     #contact-me-form {
         width: 80%;
         justify-self: center;
         align-self: center;
     }
 
+    // Adjusted flex direction of contact page such that social media icons are now below the contact form
     #contact-page {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
+    // Adjusted size of social media links on contact page
     .contact-page-social-links {
         height: 50px;
         width: auto;
     }
 
+    // Removed wrapping of social links and added margin to add space between contact form and links
     #contact-social-links {
         flex-wrap: nowrap;
         align-items: center;
@@ -598,60 +735,68 @@ textarea {
         margin-top: 50px;
     }
 
+    // Made submit button now in the center of the page
     #submit-button {
         display: flex;
         justify-content: center;
         align-content: center;
     }
 
+    // Changed margins between blog posts
     .blog-post {
         margin: 30px;
     }
 
+    // Adjusted blog photo size and added margin to bring content away from edge of screen
     .blog-photo {
         height: 175px;
         width: auto;
         margin: 10px;
     }
 
+    // Adjusted opacity of photo for this device type
     .about-content-photo {
         opacity: 70%;
     }
 
+    // Adjusted size of timeline photo to take up 80% of screen width
     .timeline-photo {
         max-width: 80%;
         height: auto;
+        // Adjusted border-radius to make image into a circle
         border-radius: 50%;
     }
 
+    // Adjusted size of timeline blocks for tablets to take up 99% of the screen width
     .timeline-block {
         margin: 5px;
         width: 99%;
     }
 
+    // Adjusted font size of content within timeline blocks
     #introduction-content {
         font-size: 20px;
     }
 
 }
 
-/* width */
+// Adjusted scrollbar width
 ::-webkit-scrollbar {
     width: 8px;
 }
 
-/* Track */
+// Adjusted scrollbar tracking color
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
-/* Handle */
+// Adjusted background color of scrollbar thumb and radius
 ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 30px;
 }
 
-/* Handle on hover */
+// Adjusted scrollbar color when hovered
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
