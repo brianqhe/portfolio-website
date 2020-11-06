@@ -468,7 +468,8 @@ input {
 
 // Changed font style, size, and text shadow for words on top of image
 .about-me-header {
-    font: 400 40px 'Berkshire Swash', Helvetica, sans-serif;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
     color: white;
     text-shadow: 1px 1px 0px black, 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -553,7 +554,7 @@ input {
 
     // Adjusted font size of about-me title
     .about-me-header {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     // Adjusted opacity of photo for this device type
