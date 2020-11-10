@@ -12,7 +12,9 @@ The link to the associated Github respository is [https://github.com/brianqhe/po
 
 The purpose of this website to communicate and demonstrate my abilities to prospective employers.
 
-To showcase my abilities, this website was created to showcase my talent, abilities and coding experience. This website will provide information about myself, my skills, interest, professional knoweldge and a showcase of my work.
+This website was created to showcase my talent, abilities and coding experience. This website will provide information about myself, my skills, interest, professional knoweldge and a showcase of my work.
+
+The website will also show prospective employers the tech stacks that I am familiar with and links to my social media accounts to contact me.
 
 
 ## Functionality / Features
@@ -24,18 +26,24 @@ The functionality and features of the webiste are as follows -
 
 - The header of the website also has the website's logo, which can also be used to navigate to the homepage.
 
-- There is a feature in the Experience page whereby viewers of the website can download a copy of my resume for their interest.
+- There is a feature in the Experience page whereby viewers of the website can download a copy of my resume for their interest. This resume will appear in a new tab in their browser when clicked.
 
-- Within the Contact page, there are links to all my social media pages with their corresponding icons which can be activated it clicked onto
+- Within the Contact page, there are links to all my social media pages with their corresponding icons which can be activated it clicked onto.
 
-- The website is designed to be fully functional and adapted for mobile and tablet usage
+- The website is designed to be fully functional and adapted for mobile, tablet and desktop usage.
+
+- The About page has a series of images with text overlay that displays the personal interests and hobbies of myself, allowing the website visitor to see more into my personality.
+
+- The website has a Blog page, which has a series of blog post previews. Each preview is accessible through the Read More button or through clicking on the title of the blog preview.
 
 ## Sitemap
 ---
 
-Sitemap is as follows -
+The sitemap of this website is as follows -
 
 ![sitemap](./src/docs/sitemap/portfolio-sitemap.jpg)
+
+It should be noted that from each branch from the home page, it is possible for the user to navigate between each page with the navigation bar or home logo icon in the top left corner of the site.
 
 ## Screenshots
 ---
@@ -51,7 +59,7 @@ An example of this is through the home screen of the desktop and mobile view res
 ## Target Audience
 ---
 
-The target audience for the portfolio website is an employer looking to engage a dev and/or IT professional. Upon visiting my website, the employer is ecpected to understand my technical knowledge relating to information technology, software development/coding, programming languages and development stacks 
+The target audience for the portfolio website is an employer looking to engage a dev and/or IT professional. Upon visiting my website, the employer is expected to understand my technical knowledge relating to information technology, software development/coding, programming languages and development stacks.
 
 ## Tech Stack
 ---
