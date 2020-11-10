@@ -425,12 +425,20 @@ input {
 
 // Formatted sizing of timeline photo
 .timeline-photo {
-    width: 45%;
+    width: 95%;
     height: auto;
     // Added padding to push photo close within
     padding: 20px;
     // Added border radius of 50% to make photo into a circle
     border-radius: 50%;
+}
+
+// Container for the timeline photo to take up 70% of the page width
+.experience-photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
 }
 
 // Changed formatting of button for resume to be downloaded
@@ -621,9 +629,9 @@ input {
         align-items: center;
     }
 
-    // Adjusted size of timeline photo to take up 90% of screen width
+    // Adjusted size of timeline photo to take up 95% of screen width
     .timeline-photo {
-        width: 90%;
+        width: 95%;
         height: auto;
         border-radius: 50%;
     }
