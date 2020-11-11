@@ -532,7 +532,8 @@ input {
             flex-direction: column;
   }
   .navbar-links {
-    font-size: 11px;
+    font-size: 10px;
+    margin: 3px;
   }
   .front-page-content {
     -webkit-box-orient: vertical;

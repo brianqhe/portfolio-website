@@ -509,9 +509,10 @@ input {
         flex-direction: column;
     }
 
-    // Made navbar words smaller
+    // Made navbar words smaller and margins smaller
     .navbar-links {
-        font-size: 11px;
+        font-size: 10px;
+        margin: 3px;
     }
 
     // Made all content now stack on top of each other instead of side by side
