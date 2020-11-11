@@ -268,7 +268,7 @@ input {
     // Added margin to space photo away from border and title
     margin: 10px;
     // Added border radius to make photo have round edges
-    border-radius: 10%;
+    border-radius: 50%;
 }
 
 // Used flexbox to make all content within the container (preview photo, title, date, content, Read more link) to be stacked in a column
@@ -317,7 +317,7 @@ input {
 
 // Changed width for which the words take up the container
 .blog-post-preview {
-    width: 70%;
+    width: 50%;
 }
 
 // Used flexbox to make all blog post previews wrap and be centered
@@ -343,7 +343,7 @@ input {
 
 // Adjusted the size of the photos in blog posts
 .photo-within-blog-post {
-    width: 75%;
+    width: 30%;
     height: auto;
     // Adjusted margin to push photo away from edge of page
     margin: 20px;
