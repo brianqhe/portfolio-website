@@ -53,14 +53,14 @@ The site is designed to be a responsive design to different devices.
 To create responsive design, Wireframes were created using Balsamiq to understand the general layout of each page. For reference, please see below screenshots of the Home Page in Balsamiq - 
 
 **Desktop Version**
-![wireframe-desktop-view](docs/screenshots-for-readme/wireframe-home-page-desktop.png)
+![wireframe-desktop-view](docs/screenshots-for-readme/wireframe-home-page-desktop.PNG)
 
 **Mobile Version**
 
-![wireframe-mobile-view](docs/screenshots-for-readme/wireframe-home-page-mobile.png)
+![wireframe-mobile-view](docs/screenshots-for-readme/wireframe-home-page-mobile.PNG)
 
 **Tablet Version**
-![wireframe-tablet-view](docs/screenshots-for-readme/wireframe-home-page-tablet.png)
+![wireframe-tablet-view](docs/screenshots-for-readme/wireframe-home-page-tablet.PNG)
 
 An example of this is through the home screen of the desktop and mobile view respectively - 
 
