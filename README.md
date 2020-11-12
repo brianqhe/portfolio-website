@@ -41,7 +41,7 @@ The functionality and features of the webiste are as follows -
 
 The sitemap of this website is as follows -
 
-![sitemap](./src/docs/sitemap/portfolio-sitemap.jpg)
+![sitemap](docs/sitemap/portfolio-sitemap.jpg)
 
 It should be noted that from each branch from the home page, it is possible for the user to navigate between each page with the navigation bar or home logo icon in the top left corner of the site.
 
@@ -53,20 +53,20 @@ The site is designed to be a responsive design to different devices.
 To create responsive design, Wireframes were created using Balsamiq to understand the general layout of each page. For reference, please see below screenshots of the Home Page in Balsamiq - 
 
 **Desktop Version**
-![wireframe-desktop-view](./src/docs/screenshots-for-readme/wireframe-home-page-desktop.png)
+![wireframe-desktop-view](docs/screenshots-for-readme/wireframe-home-page-desktop.png)
 
 **Mobile Version**
 
-![wireframe-mobile-view](./src/docs/screenshots-for-readme/wireframe-home-page-mobile.png)
+![wireframe-mobile-view](docs/screenshots-for-readme/wireframe-home-page-mobile.png)
 
 **Tablet Version**
-![wireframe-tablet-view](./src/docs/screenshots-for-readme/wireframe-home-page-tablet.png)
+![wireframe-tablet-view](docs/screenshots-for-readme/wireframe-home-page-tablet.png)
 
 An example of this is through the home screen of the desktop and mobile view respectively - 
 
-![website-desktop-view](./src/docs/screenshots-for-readme/home-page-desktop.png)
+![website-desktop-view](docs/screenshots-for-readme/home-page-desktop.png)
 
-![website-mobile-view](./src/docs/screenshots-for-readme/home-page-mobile-view.png)
+![website-mobile-view](docs/screenshots-for-readme/home-page-mobile-view.png)
 
 ## Target Audience
 ---
