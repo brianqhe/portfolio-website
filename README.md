@@ -50,11 +50,23 @@ It should be noted that from each branch from the home page, it is possible for 
 
 The site is designed to be a responsive design to different devices.
 
+To create responsive design, Wireframes were created using Balsamiq to understand the general layout of each page. For reference, please see below screenshots of the Home Page in Balsamiq - 
+
+**Desktop Version**
+![wireframe-desktop-view](./src/docs/screenshots-for-readme/wireframe-home-page-desktop.png)
+
+**Mobile Version**
+
+![wireframe-mobile-view](./src/docs/screenshots-for-readme/wireframe-home-page-mobile.png)
+
+**Tablet Version**
+![wireframe-tablet-view](./src/docs/screenshots-for-readme/wireframe-home-page-tablet.png)
+
 An example of this is through the home screen of the desktop and mobile view respectively - 
 
-![desktop-view](./src/docs/screenshots-for-readme/home-page-desktop.png)
+![website-desktop-view](./src/docs/screenshots-for-readme/home-page-desktop.png)
 
-![mobile-view](./src/docs/screenshots-for-readme/home-page-mobile-view.png)
+![website-mobile-view](./src/docs/screenshots-for-readme/home-page-mobile-view.png)
 
 ## Target Audience
 ---
@@ -75,3 +87,5 @@ The technology utilised in the creation of this website is HTML5, CSS3, SASS as 
 - SRI was used to enhance the security of the stylesheet
 
 - Netlify was used as the deployment platform, a free third party deployment web application.
+
+- Balsamiq was used at the Wireframe creation tool for the design and repsonsive design tool
