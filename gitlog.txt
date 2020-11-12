@@ -1,3 +1,15 @@
+commit 7415b89efc7de2f71fb046a1f4ada85c73085244
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Thu Nov 12 12:58:54 2020 +1100
+
+    updated screenshots on README.md
+
+commit 350ea753aeec0946e6fba6273f651781113647e8
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Thu Nov 12 12:57:22 2020 +1100
+
+    created gitlog.txt file
+
 commit 0509407edd75a9127d64e27802f08c1e57a94cb4
 Author: brianskiies <brian.he3@gmail.com>
 Date:   Thu Nov 12 12:50:28 2020 +1100
