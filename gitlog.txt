@@ -1,0 +1,203 @@
+commit 0509407edd75a9127d64e27802f08c1e57a94cb4
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Thu Nov 12 12:50:28 2020 +1100
+
+    updated links on README.md
+
+commit 5aa5d22d5c623ac9be7e05f421d150302612f9ea
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Thu Nov 12 12:48:00 2020 +1100
+
+    moving files to correct places and attached slide deck
+
+commit e80c2e0d0ad38726e721f22008cbe915d6a6e4b5
+Merge: d6e113a c8fb3ee
+Author: brianqhe <72726030+brianqhe@users.noreply.github.com>
+Date:   Thu Nov 12 12:19:09 2020 +1100
+
+    Merge pull request #6 from brianqhe/add-sha512-sri
+    
+    added sri
+
+commit c8fb3ee72d055bcfcdcaf8be8d8ac2d4189160fd
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Thu Nov 12 12:18:21 2020 +1100
+
+    added sri
+
+commit d6e113a4365aed5a7451516b65743cad6d18b614
+Merge: 5e1e825 c1964d2
+Author: brianqhe <72726030+brianqhe@users.noreply.github.com>
+Date:   Thu Nov 12 09:52:40 2020 +1100
+
+    Merge pull request #5 from brianqhe/mobile-navbar-edit
+    
+    updated navbar for devices smaller than 360px
+
+commit c1964d2097b667b326de622b2489cef3adf10cc0
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Thu Nov 12 09:51:48 2020 +1100
+
+    updated navbar for devices smaller than 360px
+
+commit 5e1e825c7cb7d096928eb1650355e0128a6bc814
+Merge: f5c272a 5516f24
+Author: brianqhe <72726030+brianqhe@users.noreply.github.com>
+Date:   Wed Nov 11 13:45:47 2020 +1100
+
+    Merge pull request #4 from brianqhe/blog-photo-changes
+    
+    changed blog photos
+
+commit 5516f241683bc2e604a8448507c7d9cfa7794054
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Wed Nov 11 13:45:01 2020 +1100
+
+    changed blog photos
+
+commit f5c272a9cf91641f48a013c15138d348027c1d2d
+Merge: 548bb22 24fd0e4
+Author: brianqhe <72726030+brianqhe@users.noreply.github.com>
+Date:   Wed Nov 11 10:58:41 2020 +1100
+
+    Merge pull request #3 from brianqhe/large-screen-responsive
+    
+    updated large screen responsiveness
+
+commit 24fd0e415fd8449aef8cf68d4f853b7352623752
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Wed Nov 11 10:57:41 2020 +1100
+
+    removed unsecure external stylesheet
+
+commit 9d8a1071a56fb2c48b4bdd4262b9f67826854d2e
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Wed Nov 11 10:54:09 2020 +1100
+
+    updated large screen responsiveness
+
+commit 548bb22f9a9d6bc7e27e653434f8fd55d2d8d101
+Merge: 564ca03 e21c2d3
+Author: brianqhe <72726030+brianqhe@users.noreply.github.com>
+Date:   Fri Nov 6 14:21:45 2020 +1100
+
+    Merge pull request #2 from brianqhe/tidying-files
+    
+    deleting unnecessary files
+
+commit e21c2d3757e5fe03180cc335edae1cf4260543b7
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Fri Nov 6 14:19:45 2020 +1100
+
+    deleting unnecessary files
+
+commit 564ca0374515bee025f91af4ae2ed59e02f7f2ca
+Merge: c97bdd4 3896703
+Author: brianqhe <72726030+brianqhe@users.noreply.github.com>
+Date:   Fri Nov 6 14:15:32 2020 +1100
+
+    Merge pull request #1 from brianqhe/font
+    
+    changed font of about page
+
+commit 38967030892c004081ffbc05a4f8dbdd5bd569e5
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Fri Nov 6 14:13:37 2020 +1100
+
+    changed font of about page
+
+commit c97bdd472011c1e86e6a007fdd837add966beedc
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Fri Nov 6 12:37:38 2020 +1100
+
+    completed README.md content
+
+commit 1021a7eba15b5a568354717a2f2f093e4e239e82
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Fri Nov 6 12:02:54 2020 +1100
+
+    added comments on all html and sass pages
+
+commit 105acbf4a9f05c8af82ad4c1d48b1352472bc4c9
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Fri Nov 6 10:33:36 2020 +1100
+
+    added animations and updated images
+
+commit ac834d21ace9b2096814da2a51a4081c61b7c9f1
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Thu Nov 5 14:39:10 2020 +1100
+
+    drafted README file
+
+commit 3df0cfd4fca07c4b387b00b279a460ca85db6af3
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Thu Nov 5 14:28:55 2020 +1100
+
+    updated blog images and wireframe
+
+commit e58eea2d8ddd6c1f6192845b921e85e2bc26aa2b
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Thu Nov 5 12:52:30 2020 +1100
+
+    added sticky footer and updated photos
+
+commit 0d29ed3d977afd731f819f95799f69029f444744
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Thu Nov 5 11:46:44 2020 +1100
+
+    updated fonts and colour scheme of page
+
+commit 79a0407e75bc35838d888ee20a61dc2e5d2fc8e0
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Tue Nov 3 20:55:58 2020 +1100
+
+    updated formatting of homepage and added dates to blogs
+
+commit 144c02d118d1625fd77c048a08bca7fa11d06bc4
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Mon Nov 2 12:34:37 2020 +1100
+
+    added about me page
+
+commit cc2038b3c618c524f8887c296766e1b6f00a6933
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Mon Nov 2 11:07:45 2020 +1100
+
+    added experience page
+
+commit fe4ce4cd325188fdafd322e1c55b6fe3bd6af69e
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Sun Nov 1 16:36:21 2020 +1100
+
+    added favicon and icon and started experience page
+
+commit 471fba1893f5f072de3a084365b77849096cb72a
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Sun Nov 1 15:28:26 2020 +1100
+
+    added blog post pages
+
+commit ac5bbad0cb4bc323454eb145b66dd793727da09a
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Sun Nov 1 15:16:33 2020 +1100
+
+    drafted Blog and Contact pages
+
+commit a43aa0c929a915c3399151795e96367aa4d96a96
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Sat Oct 31 13:43:04 2020 +1100
+
+    drafted home page
+
+commit 5dfc4b6c54026f8aa0328a0511829a3e52b343bd
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Fri Oct 23 16:45:45 2020 +1100
+
+    added css link
+
+commit 2d3bc1a6b81d1aa45348916f54edd39cc19d1eeb
+Author: brianskiies <brian.he3@gmail.com>
+Date:   Fri Oct 23 15:37:37 2020 +1100
+
+    initial commit
